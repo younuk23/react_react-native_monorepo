@@ -73,8 +73,7 @@
 
 `yarn workspace <워크스페이스 이름> add <설치하고자 하는 패키지 이름>`
 
-    ex)
-
+ex)
 `yarn workspace mobile add redux`
 
 ### 작성한 공용모듈 추가
