@@ -1,1 +1,1 @@
-export const hello = "Hello monoRepo";
+export const hello = "Hello World";

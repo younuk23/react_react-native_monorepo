@@ -35,14 +35,14 @@
 
   - react-web, react-native에서 공통적으로 사용될 것으로 판단되는 부분 theme, typo, util함수(API 함수 등) 반복작성 없이 사용 가능할 것으로 판단
 
-- 개별 패캐지 디렉토리내부로 진입하지 않고 root 디렉토리에서 script실행 가능
+- 개별 패키지 디렉토리내부로 진입하지 않고 root 디렉토리에서 script실행 가능
   (lerna로 실행할 경우 스크립트 명령어 진행상황이 확인 안되기에 yarn workspace script 가 좀 더 편리한것으로 판단됨)
 
   `yarn workspace <워크스페이스 이름> <script 명령어>`
 
   or
 
-  `lerna scpoe==<워크스페이스 이름> <script 명령어>`
+  `lerna --scpoe==<워크스페이스 이름> <script 명령어>`
 
 - node_modules 용량 단축 가능
   - 공통된 버전의 패키지일 경우 root node_modules에 저장함으로서(hoist) 공통된 패키지 중복 설치 방지
